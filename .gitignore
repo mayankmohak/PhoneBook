@@ -1,1 +1,2 @@
-/__pycache__/inputvalidation.cpython-37.pyc
+__pycache__/
+*.pyc
