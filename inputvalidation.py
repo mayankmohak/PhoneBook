@@ -1,10 +1,10 @@
 import re
 remail = '^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'
-# def checkemail(email):
-#     if(re.search(remail,email)):
-#         return True
-#     else:
-#         return False
+def checkemail(email):
+    if(re.search(remail,email)):
+        return True
+    else:
+        return False
 
 rname = '^[A-Za-z]'
 def checkname(name):
